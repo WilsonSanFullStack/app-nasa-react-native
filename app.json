@@ -2,11 +2,20 @@
   "expo": {
     "name": "app-nasa",
     "slug": "app-nasa",
+    "scheme": "app-nasa",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+    "extra": {
+      "nasa": {
+        "api_key": "E9fKtHK0tMVxW8zrkKqMQLEZJomqFXoSscJWRxco"
+      },
+      "url": {
+        "APOD": "https://api.nasa.gov/planetary/apod"
+      }
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
