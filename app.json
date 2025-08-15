@@ -13,7 +13,8 @@
         "api_key": "E9fKtHK0tMVxW8zrkKqMQLEZJomqFXoSscJWRxco"
       },
       "url": {
-        "APOD": "https://api.nasa.gov/planetary/apod"
+        "APOD": "https://api.nasa.gov/planetary/apod",
+        "urlObjects": "https://api.nasa.gov/neo/rest/v1/feed?"
       }
     },
     "splash": {
